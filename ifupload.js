@@ -1,3 +1,7 @@
+/**
+author lhaozi
+create 20160810
+**/
 function ifUpload(opt){
 	this.upload_url = opt.upload_url || "";//上传路径必传
 	this.file_types = opt.file_types || "jpg|gif|png";//上传的文件类型,用竖线隔开

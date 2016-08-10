@@ -14,7 +14,7 @@ var setting={//设置参数
 	btn_height = 100,//上传的按钮高度
 	loadding = true,//默认为true，可以不需要填写
 	success_fn:function(serverdata){//上传完之后的回调，默认可以为空
-		$("#upload_img_1").html('<img src="uploads/'+serverdata.imgUrl+'" />');
+		//上传完成的回调
 	}
 }
 var ifupload = new ifUpload(setting).init();//创建对象
